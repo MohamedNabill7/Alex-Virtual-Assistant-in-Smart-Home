@@ -1,0 +1,125 @@
+{"intent": [
+    {"tag": "greeting",
+     "patterns": ["Hi there",
+                  "How are you",
+                  "Is anyone there?",
+                  "Hey",
+                  "Hola", 
+                  "Hello",
+                  "Good day"
+                 ]
+    },
+    
+    {"tag": "goodbye",
+     "patterns": ["Bye",
+                  "See you later",
+                  "Goodbye",
+                  "Nice talking to you, bye",
+                  "Till next time"
+                 ]
+    },
+    
+    {"tag": "thanks",
+     "patterns": ["Thanks",
+                  "Thank you",
+                  "That's helpful", 
+                  "Awesome, thanks",
+                  "Thanks for helping me"
+                 ]
+    },
+    
+    {"tag": "options",
+     "patterns": ["How you could help me?",
+                  "What you can do?",
+                  "What help you provide?", 
+                  "How you can be helpful?",
+                  "What support is offered"
+                 ]
+    },
+    
+    {"tag": "getweather",
+     "patterns": ["tell me the weather forecast now",
+                  "what's the forecast?",
+                  "what is the weather like right now?",
+                  "what's the temperature going to be tomorrow?",
+                  "Is it raining?",
+                  "current weather",
+                  "how is the weather looking in cairo",
+                  "what is the weather doing now"
+                 ]
+    },
+    
+    {"tag": "turnONlight", 
+     "patterns": ["turn on the room light",
+                  "turn on the kitchen light",
+                  "turn on the light",
+                  "turn on the light of room",
+                  "put the garage lights on",
+                  "Would you please switch on the light?",
+                  "Can you please switch on the light?"
+                 ]
+    },
+    
+    {"tag": "turnOFFlight",
+     "patterns": ["turn off the room light",
+                  "turn off the kitchen light",
+                  "turn off the light",
+                  "turn off the light of room",
+                  "put the garage lights off",
+                  "dim the main lights please",
+                  "Would you please switch off the light?",
+                  "Can you please switch off the light?" 
+                 ]
+    },
+    
+    {"tag": "info",
+     "patterns": ["get me a cookie recipe",
+                  "how is the traffic?",
+                  "what is the definition of [word]?",
+                  "ask Wikipedia about [topic]",
+                  "tell me some information about [topic]",
+                  "give me a brief about [topic]"
+                 ]
+    },
+    
+    {"tag":"time",
+     "patterns" : ["what time is it now",
+                   "what is the current time in cairo",
+                   "what is the current time in new york",
+                   "what does it say on the clock",
+                   "what hour and minute is it",
+                   "please tell me the time"
+                  ]
+    },
+    
+    {"tag":"date",
+     "patterns" : ["tell me the date",
+                   "which day is it today",
+                   "what day of the week are we on", 
+                   "i need to know the date it will be 4 days from now",
+                   "what is today’s date?"
+                  ]
+    },
+    
+    {"tag":"alarm",
+     "patterns" : ["can you make an alarm for 7 am",
+                   "create an alarm for me",
+                   "set an alarm for lunch and another for dinner",
+                   "i need an alarm set for 9 am and another for 11 am",
+                   "please create an alarm for 5:45 am and an alarm for 6:15 am",
+                   "i need one alarm to go off at 6:30 am and a second alarm set for 8:00 am", 
+                   "i want to be woken up at 9 tomorrow"
+                  ]
+    },
+    
+    {"tag":"play_music",
+     "patterns" : ["can i hear my smooth jazz playlist",
+                   "let's hear my workout playlist",
+                   "play some music",
+                   "i want to listen to music",
+                   "please play the new lady gaga song",
+                   "i need for you to play my maroon 5 playlist"
+                  ]
+    }
+            
+]}
