@@ -7,12 +7,12 @@
 #### ASR
 Automatic speech recognition (ASR) is technology that converts spoken words into text.
 
-https://miro.medium.com/max/1400/1*yP_TSDUBmjEh0broCh0wYg.png
+![](https://miro.medium.com/max/1400/1*yP_TSDUBmjEh0broCh0wYg.png)
 
 #### NLU
 Natural-language understanding (NLU) is a subtopic of natural-language processing. With natural language understanding (NLU), computers can deduce what a speaker actually means, and not just the words they say.
 
-https://d3ogm7ac91k97u.cloudfront.net/content/dam/alexa/temp-working-folder/nlu/nlu-lp_graphics_block-1._CB499232483_.png
+![](https://d3ogm7ac91k97u.cloudfront.net/content/dam/alexa/temp-working-folder/nlu/nlu-lp_graphics_block-1._CB499232483_.png)
 
 To begin, we will need to understand the basics of NLU.
 
