@@ -1,5 +1,7 @@
 # ML-Smart-Home-Assistant
 
+![](file:///C:/Users/Mohamed%20Nabil/Pictures/ASK_overview._TTH_.png)
+
 ## Pipeline
 
 ### ASR -> NLU -> Dialogue Sys -> TTS
