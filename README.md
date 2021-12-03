@@ -6,6 +6,8 @@
 
 ### ASR -> NLU -> Dialogue Sys -> TTS
 
+![](https://opendatascience.com/wp-content/uploads/2021/03/nlp2-1.png)
+
 #### ASR
 Automatic speech recognition (ASR) is technology that converts spoken words into text.
 
