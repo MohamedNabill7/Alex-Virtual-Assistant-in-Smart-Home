@@ -1,0 +1,1288 @@
+{
+    "train_data": [
+        [
+            "how is the weather in cairo?",
+            {
+                "entities": [
+                    [
+                        22,
+                        27,
+                        "location"
+                    ]
+                ]
+            }
+        ],
+        [
+            "How is the weather today",
+            {
+                "entities": [
+                    [
+                        19,
+                        24,
+                        "date"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how is the weather today in cairo?",
+            {
+                "entities": [
+                    [
+                        19,
+                        24,
+                        "date"
+                    ],
+                    [
+                        28,
+                        33,
+                        "location"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how is the weather today in berlin?",
+            {
+                "entities": [
+                    [
+                        19,
+                        24,
+                        "date"
+                    ],
+                    [
+                        28,
+                        34,
+                        "location"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how is the weather today in alexandria?",
+            {
+                "entities": [
+                    [
+                        19,
+                        24,
+                        "date"
+                    ],
+                    [
+                        28,
+                        38,
+                        "location"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how is the weather today in zagazig?",
+            {
+                "entities": [
+                    [
+                        19,
+                        24,
+                        "date"
+                    ],
+                    [
+                        28,
+                        35,
+                        "location"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how is the weather tomorrow in new york?",
+            {
+                "entities": [
+                    [
+                        19,
+                        27,
+                        "date"
+                    ],
+                    [
+                        31,
+                        39,
+                        "location"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how is the weather tomorrow in zagazig?",
+            {
+                "entities": [
+                    [
+                        19,
+                        27,
+                        "date"
+                    ],
+                    [
+                        31,
+                        38,
+                        "location"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how is the weather next week in cairo",
+            {
+                "entities": [
+                    [
+                        19,
+                        28,
+                        "date"
+                    ],
+                    [
+                        32,
+                        37,
+                        "location"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how is the weather next week in zagazig",
+            {
+                "entities": [
+                    [
+                        19,
+                        28,
+                        "date"
+                    ],
+                    [
+                        32,
+                        39,
+                        "location"
+                    ]
+                ]
+            }
+        ],
+        [
+            "turn the lights off please",
+            {
+                "entities": [
+                    [
+                        9,
+                        19,
+                        "light_off"
+                    ]
+                ]
+            }
+        ],
+        [
+            "turn the lights on please",
+            {
+                "entities": [
+                    [
+                        9,
+                        18,
+                        "light_on"
+                    ]
+                ]
+            }
+        ],
+        [
+            "turn the lights off in the bedroom",
+            {
+                "entities": [
+                    [
+                        9,
+                        19,
+                        "light_off"
+                    ],
+                    [
+                        27,
+                        34,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "turn the lights off in the bathroom",
+            {
+                "entities": [
+                    [
+                        9,
+                        19,
+                        "light_off"
+                    ],
+                    [
+                        27,
+                        35,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "turn the lights off in the kitchen",
+            {
+                "entities": [
+                    [
+                        9,
+                        19,
+                        "light_off"
+                    ],
+                    [
+                        27,
+                        34,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "turn the lights on in the bedroom",
+            {
+                "entities": [
+                    [
+                        9,
+                        18,
+                        "light_on"
+                    ],
+                    [
+                        26,
+                        33,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "turn the lights on in the bathroom",
+            {
+                "entities": [
+                    [
+                        9,
+                        18,
+                        "light_on"
+                    ],
+                    [
+                        26,
+                        34,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "turn the lights on in the kitchen",
+            {
+                "entities": [
+                    [
+                        9,
+                        18,
+                        "light_on"
+                    ],
+                    [
+                        26,
+                        33,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "dim the lights in the kitchen",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "light_off"
+                    ],
+                    [
+                        22,
+                        29,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "dim the lights in the badroom",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "light_off"
+                    ],
+                    [
+                        22,
+                        29,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "dim the lights in the garage",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "light_off"
+                    ],
+                    [
+                        22,
+                        28,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "dim the lights in the bathroom",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "light_off"
+                    ],
+                    [
+                        22,
+                        30,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "dim all lights",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "light_off"
+                    ]
+                ]
+            }
+        ],
+        [
+            "put the garage lights off",
+            {
+                "entities": [
+                    [
+                        8,
+                        14,
+                        "room_type"
+                    ],
+                    [
+                        15,
+                        25,
+                        "light_off"
+                    ]
+                ]
+            }
+        ],
+        [
+            "put the garage lights on",
+            {
+                "entities": [
+                    [
+                        8,
+                        14,
+                        "room_type"
+                    ],
+                    [
+                        15,
+                        24,
+                        "light_off"
+                    ]
+                ]
+            }
+        ],
+        [
+            "turn on the room light",
+            {
+                "entities": [
+                    [
+                        0,
+                        7,
+                        "light_on"
+                    ],
+                    [
+                        12,
+                        16,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "turn on the bedroom light",
+            {
+                "entities": [
+                    [
+                        0,
+                        7,
+                        "light_on"
+                    ],
+                    [
+                        12,
+                        19,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "turn on the kitchen light",
+            {
+                "entities": [
+                    [
+                        0,
+                        7,
+                        "light_on"
+                    ],
+                    [
+                        12,
+                        19,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "turn off the room light",
+            {
+                "entities": [
+                    [
+                        0,
+                        8,
+                        "light_off"
+                    ],
+                    [
+                        13,
+                        17,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "turn off the bedroom light",
+            {
+                "entities": [
+                    [
+                        0,
+                        8,
+                        "light_off"
+                    ],
+                    [
+                        13,
+                        20,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "turn off the kitchen light",
+            {
+                "entities": [
+                    [
+                        0,
+                        8,
+                        "light_off"
+                    ],
+                    [
+                        13,
+                        20,
+                        "room_type"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give me some info about coronavirus",
+            {
+                "entities": [
+                    [
+                        24,
+                        35,
+                        "topic"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give me some info about mars",
+            {
+                "entities": [
+                    [
+                        24,
+                        28,
+                        "topic"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give me some info about dogs",
+            {
+                "entities": [
+                    [
+                        24,
+                        28,
+                        "topic"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give me some info about volcanoes",
+            {
+                "entities": [
+                    [
+                        24,
+                        33,
+                        "topic"
+                    ]
+                ]
+            }
+        ],
+        [
+            "tell me the latest news in business",
+            {
+                "entities": [
+                    [
+                        27,
+                        35,
+                        "news_topic"
+                    ]
+                ]
+            }
+        ],
+        [
+            "tell me the latest news in science",
+            {
+                "entities": [
+                    [
+                        27,
+                        34,
+                        "news_topic"
+                    ]
+                ]
+            }
+        ],
+        [
+            "tell me the latest news in climate",
+            {
+                "entities": [
+                    [
+                        27,
+                        34,
+                        "news_topic"
+                    ]
+                ]
+            }
+        ],
+        [
+            "tell me the latest news in technology",
+            {
+                "entities": [
+                    [
+                        27,
+                        37,
+                        "news_topic"
+                    ]
+                ]
+            }
+        ],
+        [
+            "tell me the latest news in coronavirus",
+            {
+                "entities": [
+                    [
+                        27,
+                        38,
+                        "news_topic"
+                    ]
+                ]
+            }
+        ],
+        [
+            "ask wikipedia about ancient egypt",
+            {
+                "entities": [
+                    [
+                        20,
+                        33,
+                        "topic"
+                    ]
+                ]
+            }
+        ],
+        [
+            "ask wikipedia about internet",
+            {
+                "entities": [
+                    [
+                        20,
+                        28,
+                        "topic"
+                    ]
+                ]
+            }
+        ],
+        [
+            "ask wikipedia about computer",
+            {
+                "entities": [
+                    [
+                        20,
+                        28,
+                        "topic"
+                    ]
+                ]
+            }
+        ],
+        [
+            "what is the current time in new york",
+            {
+                "entities": [
+                    [
+                        12,
+                        24,
+                        "time"
+                    ],
+                    [
+                        28,
+                        36,
+                        "location"
+                    ]
+                ]
+            }
+        ],
+        [
+            "what is the current date",
+            {
+                "entities": [
+                    [
+                        12,
+                        24,
+                        "date"
+                    ]
+                ]
+            }
+        ],
+        [
+            "cancel my seven am alarm",
+            {
+                "entities": [
+                    [
+                        10,
+                        18,
+                        "time"
+                    ]
+                ]
+            }
+        ],
+        [
+            "set an alarm for lunch and another for dinner",
+            {
+                "entities": [
+                    [
+                        17,
+                        22,
+                        "time"
+                    ],
+                    [
+                        39,
+                        45,
+                        "time"
+                    ]
+                ]
+            }
+        ],
+        [
+            "set an alarm for eight pm",
+            {
+                "entities": [
+                    [
+                        17,
+                        25,
+                        "time"
+                    ]
+                ]
+            }
+        ],
+        [
+            "set an alarm for five am",
+            {
+                "entities": [
+                    [
+                        17,
+                        24,
+                        "time"
+                    ]
+                ]
+            }
+        ],
+        [
+            "set an alarm for six pm",
+            {
+                "entities": [
+                    [
+                        17,
+                        23,
+                        "time"
+                    ]
+                ]
+            }
+        ],
+        [
+            "set an alarm for six am",
+            {
+                "entities": [
+                    [
+                        17,
+                        23,
+                        "time"
+                    ]
+                ]
+            }
+        ],
+        [
+            "set an alarm for ten pm",
+            {
+                "entities": [
+                    [
+                        17,
+                        23,
+                        "time"
+                    ]
+                ]
+            }
+        ],
+        [
+            "can you play shallow song",
+            {
+                "entities": [
+                    [
+                        13,
+                        20,
+                        "song_name"
+                    ]
+                ]
+            }
+        ],
+        [
+            "can you play benkhaf song",
+            {
+                "entities": [
+                    [
+                        13,
+                        20,
+                        "song_name"
+                    ]
+                ]
+            }
+        ],
+        [
+            "can you play flash song",
+            {
+                "entities": [
+                    [
+                        13,
+                        18,
+                        "song_name"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play insan by hamza namira",
+            {
+                "entities": [
+                    [
+                        5,
+                        10,
+                        "song_name"
+                    ],
+                    [
+                        14,
+                        26,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play yunis by mohamed mounir",
+            {
+                "entities": [
+                    [
+                        5,
+                        10,
+                        "song_name"
+                    ],
+                    [
+                        14,
+                        28,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play flash by cigarettes after sex",
+            {
+                "entities": [
+                    [
+                        5,
+                        10,
+                        "song_name"
+                    ],
+                    [
+                        14,
+                        34,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play touch by cigarettes after sex",
+            {
+                "entities": [
+                    [
+                        5,
+                        10,
+                        "song_name"
+                    ],
+                    [
+                        14,
+                        34,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play shallow by lady gaga",
+            {
+                "entities": [
+                    [
+                        5,
+                        12,
+                        "song_name"
+                    ],
+                    [
+                        16,
+                        25,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play shivers by ed sheeran",
+            {
+                "entities": [
+                    [
+                        5,
+                        12,
+                        "song_name"
+                    ],
+                    [
+                        16,
+                        26,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play laykoon by el morabba3",
+            {
+                "entities": [
+                    [
+                        5,
+                        12,
+                        "song_name"
+                    ],
+                    [
+                        16,
+                        27,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play gravity by coldplay",
+            {
+                "entities": [
+                    [
+                        5,
+                        12,
+                        "song_name"
+                    ],
+                    [
+                        16,
+                        24,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play tazkarti by hamza namira",
+            {
+                "entities": [
+                    [
+                        5,
+                        13,
+                        "song_name"
+                    ],
+                    [
+                        17,
+                        29,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play heavenly by cigarettes after sex",
+            {
+                "entities": [
+                    [
+                        5,
+                        13,
+                        "song_name"
+                    ],
+                    [
+                        17,
+                        37,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play believer by imagine dragons",
+            {
+                "entities": [
+                    [
+                        5,
+                        13,
+                        "song_name"
+                    ],
+                    [
+                        17,
+                        32,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play wushoosh by hamza namira",
+            {
+                "entities": [
+                    [
+                        5,
+                        13,
+                        "song_name"
+                    ],
+                    [
+                        17,
+                        29,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play music for cigarettes after sex",
+            {
+                "entities": [
+                    [
+                        15,
+                        35,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play music for cairokee",
+            {
+                "entities": [
+                    [
+                        15,
+                        23,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play music for amr diab",
+            {
+                "entities": [
+                    [
+                        15,
+                        23,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "paly music for coldplay",
+            {
+                "entities": [
+                    [
+                        15,
+                        23,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play music for george wassouf",
+            {
+                "entities": [
+                    [
+                        15,
+                        29,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play music for mohamed mounir",
+            {
+                "entities": [
+                    [
+                        15,
+                        29,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play music for adele",
+            {
+                "entities": [
+                    [
+                        15,
+                        20,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play music for justin bieber",
+            {
+                "entities": [
+                    [
+                        15,
+                        28,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play music for hamza namira",
+            {
+                "entities": [
+                    [
+                        15,
+                        27,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "shuffle songs by coldplay",
+            {
+                "entities": [
+                    [
+                        17,
+                        25,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "i want to hear some music",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "play rock music",
+            {
+                "entities": [
+                    [
+                        5,
+                        9,
+                        "music_genre"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play hip hop music",
+            {
+                "entities": [
+                    [
+                        5,
+                        12,
+                        "music_genre"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play classical music",
+            {
+                "entities": [
+                    [
+                        5,
+                        14,
+                        "music_genre"
+                    ]
+                ]
+            }
+        ],
+        [
+            "i like rock music",
+            {
+                "entities": [
+                    [
+                        7,
+                        11,
+                        "music_genre"
+                    ]
+                ]
+            }
+        ],
+        [
+            "i want to hear is rap",
+            {
+                "entities": [
+                    [
+                        18,
+                        21,
+                        "music_genre"
+                    ]
+                ]
+            }
+        ],
+        [
+            "i want to hear is rock",
+            {
+                "entities": [
+                    [
+                        18,
+                        22,
+                        "music_genre"
+                    ]
+                ]
+            }
+        ],
+        [
+            "i want to hear is pop",
+            {
+                "entities": [
+                    [
+                        18,
+                        21,
+                        "music_genre"
+                    ]
+                ]
+            }
+        ],
+        [
+            "i want to hear is jazz",
+            {
+                "entities": [
+                    [
+                        18,
+                        22,
+                        "music_genre"
+                    ]
+                ]
+            }
+        ],
+        [
+            "let's listen to lovely by billie eilish",
+            {
+                "entities": [
+                    [
+                        16,
+                        22,
+                        "song_name"
+                    ],
+                    [
+                        26,
+                        39,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "let's listen to lovely",
+            {
+                "entities": [
+                    [
+                        16,
+                        22,
+                        "song_name"
+                    ]
+                ]
+            }
+        ],
+        [
+            "let's listen to touch by cigarettes after sex",
+            {
+                "entities": [
+                    [
+                        16,
+                        21,
+                        "song_name"
+                    ],
+                    [
+                        25,
+                        45,
+                        "artist"
+                    ]
+                ]
+            }
+        ],
+        [
+            "play my jazz playlist",
+            {
+                "entities": [
+                    [
+                        8,
+                        12,
+                        "music_genre"
+                    ]
+                ]
+            }
+        ]
+    ]
+}
