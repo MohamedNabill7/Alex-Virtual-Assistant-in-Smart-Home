@@ -4,7 +4,7 @@
 
 ## Pipeline
 
-### ASR -> NLU -> Dialogue Sys -> TTS
+### Automatic Speech Recognition -> Natural Language Understanding -> Dialogue System -> Text To Speech
 
 ![](https://opendatascience.com/wp-content/uploads/2021/03/nlp2-1.png)
 
