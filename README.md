@@ -4,7 +4,7 @@
 
 ## Pipeline
 
-#### Automatic Speech Recognition -> Natural Language Understanding -> Dialogue System -> Text To Speech
+#### Automatic Speech Recognition -> Natural Language Understanding -> Skills -> Text To Speech
 
 ![](https://opendatascience.com/wp-content/uploads/2021/03/nlp2-1.png)
 
