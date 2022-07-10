@@ -1,0 +1,15 @@
+    pandas
+    numpy
+    tensorflow-cpu==2.7.0 
+    keras
+    regex
+    requests
+    spacy
+    PyYAML 
+    pyjokes
+    beautifulsoup4
+    Flask
+    lxml
+    plac
+    fastapi
+    uvicorn
