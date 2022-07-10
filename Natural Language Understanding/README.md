@@ -10,6 +10,8 @@ To begin, we will need to understand the basics of NLU.
 
 The utterances are spoken or typed phrases that users input to NLU for fulfiling the intent. Simply speaking, this is how the users express their intent in words. Examples could be “Can I book a ticket from Seattle to Beijing?” or “I would like to buy a ticket for Septempber 19”. For NLU to classify intents based on utterances, a model needs to be trained with pre-defined utterance examples.
 
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zMrnqAW934g5zj4jP67gjQHaDD%26pid%3DApi&f=1)
+
 **Intents**
 
 Intents are response to the natural-language input from the users. For example, in an airline booking application. Intents can be Book Tickets, Cancel Tickets or View Ticket Details. When the user input comes in, the NLU needs to classify to find an appropriate (mostly likely matched) intent. This relies on training a model based on utterances.
@@ -17,3 +19,5 @@ Intents are response to the natural-language input from the users. For example, 
 **Slots or Entities**
 
 Slots are variables in the utterance which is required to fulfil the intent. For example, when booking an airline ticket, the variables could be the departure date, return date, destination, departure city.
+
+
