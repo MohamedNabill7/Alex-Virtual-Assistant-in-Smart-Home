@@ -1,0 +1,2285 @@
+---
+train_data:
+- - how is the weather in cairo?
+  - entities:
+    - - 22
+      - 27
+      - location
+- - How is the weather today
+  - entities:
+    - - 19
+      - 24
+      - date
+- - how is the weather today in cairo?
+  - entities:
+    - - 19
+      - 24
+      - date
+    - - 28
+      - 33
+      - location
+- - how is the weather today in berlin?
+  - entities:
+    - - 19
+      - 24
+      - date
+    - - 28
+      - 34
+      - location
+- - what is the weather like today
+  - entities:
+    - - 25
+      - 30
+      - date
+- - check the weather of new york
+  - entities:
+    - - 21
+      - 29
+      - location
+- - is it going to rain
+  - entities:
+    - - 15
+      - 19
+      - weather_descriptor
+- - what is the weather in paris
+  - entities:
+    - - 23
+      - 28
+      - location
+- - please find today's forecast
+  - entities:
+    - - 12
+      - 17
+      - date
+- - hey what is the weather like today
+  - entities:
+    - - 29
+      - 34
+      - date
+- - is it sunny
+  - entities:
+    - - 6
+      - 11 
+      - weather_descriptor
+- - is it going to rain in cairo
+  - entities:
+    - - 15
+      - 19
+      - weather_descriptor
+    - - 23
+      - 38
+      - location
+- - is it going to rain in cairo today
+  - entities:
+    - - 15
+      - 19
+      - weather_descriptor
+    - - 23
+      - 28
+      - location
+    - - 29
+      - 34
+      - date
+- - is it going to be sunny today
+  - entities:
+    - - 18
+      - 23
+      - weather_descriptor
+    - - 24
+      - 29
+      - date
+- - what is the weather like tomorrow
+  - entities:
+    - - 25
+      - 33
+      - date
+- - how is the weather today in alexandria?
+  - entities:
+    - - 19
+      - 24
+      - date
+    - - 28
+      - 38
+      - location
+- - how is the weather today in zagazig?
+  - entities:
+    - - 19
+      - 24
+      - date
+    - - 28
+      - 35
+      - location
+- - how is the weather tomorrow in new york?
+  - entities:
+    - - 19
+      - 27
+      - date
+    - - 31
+      - 39
+      - location
+- - how is the weather tomorrow in zagazig?
+  - entities:
+    - - 19
+      - 27
+      - date
+    - - 31
+      - 38
+      - location
+- - how is the weather next week in cairo
+  - entities:
+    - - 19
+      - 28
+      - date
+    - - 32
+      - 37
+      - location
+- - how is the weather next week in zagazig
+  - entities:
+    - - 19
+      - 28
+      - date
+    - - 32
+      - 39
+      - location
+- - please tell me about today's weather
+  - entities:
+    - - 21
+      - 26
+      - date
+- - what is the weather condition today
+  - entities:
+    - - 30
+      - 35
+      - date
+- - check the weather of new york
+  - entities:
+    - - 21
+      - 29
+      - location
+- - what is the weather in paris
+  - entities:
+    - - 23
+      - 28
+      - location
+- - is it raining?
+  - entities:
+    - - 6
+      - 13
+      - weather_descriptor
+- - is it raining in cairo?
+  - entities:
+    - - 6
+      - 13
+      - weather_descriptor
+    - - 17
+      - 22
+      - location
+- - is it warm outside
+  - entities:
+    - - 6
+      - 10
+      - weather_descriptor
+- - is the weather cloudy tonight
+  - entities:
+    - - 15
+      - 21
+      - weather_descriptor 
+- - is it gonna be cloudy
+  - entities:
+    - - 15
+      - 21
+      - weather_descriptor
+- - is it going to snow tonight
+  - entities:
+    - - 15
+      - 19
+      - weather_descriptor
+- - is snow in the forecast
+  - entities:
+    - - 3
+      - 7
+      - weather_descriptor      
+- - is it going to rain on friday
+  - entities:
+    - - 15
+      - 19
+      - weather_descriptor
+    - - 23
+      - 29
+      - date
+- - is it suppose to rain today
+  - entities:
+    - - 17
+      - 21
+      - weather_descriptor
+    - - 22
+      - 27
+      - date
+- - is it sunny outside at this moment
+  - entities:
+    - - 6
+      - 11
+      - weather_descriptor
+- - is it going to rain
+  - entities:
+    - - 15
+      - 19
+      - weather_descriptor
+- - is it sunny 
+  - entities:
+    - - 6
+      - 11
+      - weather_descriptor
+- - will it rain today
+  - entities:
+    - - 8
+      - 12
+      - weather_descriptor
+    - - 13
+      - 18
+      - date
+- - Is it humid out there today?
+  - entities:
+    - - 6
+      - 11
+      - weather_descriptor
+    - - 22
+      - 27
+      - date
+- - is it going to rain today
+  - entities:
+    - - 15
+      - 19
+      - weather_descriptor
+    - - 20
+      - 25
+      - date
+- - do you think it would rain today
+  - entities:
+    - - 22
+      - 26
+      - weather_descriptor
+    - - 27
+      - 32
+      - date
+- - what is the weather condition in new york
+  - entities:
+    - - 33
+      - 41
+      - location
+- - turn off the light please
+  - entities:
+    - - 5
+      - 8
+      - action
+    - - 13
+      - 18
+      - device
+- - turn on the light please
+  - entities:
+    - - 5
+      - 7
+      - action
+    - - 12
+      - 17
+      - device
+- - turn on the fan please
+  - entities:
+    - - 5
+      - 7
+      - action
+    - - 12
+      - 15
+      - device
+- - open the door
+  - entities:
+    - - 0
+      - 4
+      - action
+    - - 9
+      - 13
+      - device   
+- - close the door
+  - entities:
+    - - 0
+      - 5
+      - action
+    - - 10
+      - 14
+      - device
+- - open the window
+  - entities:
+    - - 0
+      - 4
+      - action
+    - - 9
+      - 15
+      - device  
+- - turn the light off in the bedroom
+  - entities:
+    - - 9
+      - 14
+      - device
+    - - 15
+      - 18
+      - action
+    - - 26
+      - 33
+      - room
+- - turn the fan off in the bedroom
+  - entities:
+    - - 9
+      - 12
+      - device
+    - - 13
+      - 16
+      - action
+    - - 24
+      - 31
+      - room
+- - close the window
+  - entities:
+    - - 0
+      - 5
+      - action
+    - - 10
+      - 16
+      - device   
+- - turn the light on in the bathroom
+  - entities:
+    - - 9
+      - 14
+      - device
+    - - 15
+      - 17
+      - action
+    - - 25
+      - 33
+      - room
+- - turn the light on in the kitchen
+  - entities:
+    - - 9
+      - 14
+      - device
+    - - 15
+      - 17
+      - action
+    - - 25
+      - 32
+      - room
+- - turn the light on in the bedroom
+  - entities:
+    - - 9
+      - 14
+      - device
+    - - 15
+      - 17
+      - action
+    - - 25
+      - 32
+      - room
+- - dim the light in the kitchen
+  - entities:
+    - - 0
+      - 3
+      - action
+    - - 8
+      - 13
+      - device
+    - - 21
+      - 28
+      - room
+- - dim the light in the badroom
+  - entities:
+    - - 0
+      - 3
+      - action
+    - - 8
+      - 13
+      - device
+    - - 21
+      - 28
+      - room
+- - dim the light in the garage
+  - entities:
+    - - 0
+      - 3
+      - action
+    - - 8
+      - 13
+      - device
+    - - 21
+      - 27
+      - room
+- - dim all light
+  - entities:
+    - - 0
+      - 3
+      - action
+    - - 8
+      - 13
+      - device
+- - please open the door of the garage
+  - entities:
+    - - 7
+      - 11
+      - action
+    - - 16
+      - 20
+      - device  
+    - - 28
+      - 34
+      - room
+- - please open the window of the bedroom
+  - entities:
+    - - 7
+      - 11
+      - action
+    - - 16
+      - 22
+      - device  
+    - - 30
+      - 37
+      - room
+- - please open the door 
+  - entities:
+    - - 7
+      - 11
+      - action
+    - - 16
+      - 20
+      - device  
+- - please close the window 
+  - entities:
+    - - 7
+      - 12
+      - action
+    - - 17
+      - 23
+      - device  
+- - put the garage light off
+  - entities:
+    - - 8
+      - 14
+      - room
+    - - 15
+      - 20
+      - device
+    - - 21
+      - 24
+      - action
+- - put the garage light on
+  - entities:
+    - - 8
+      - 14
+      - room
+    - - 15
+      - 20
+      - device
+    - - 21
+      - 23
+      - action
+- - turn on the bedroom light
+  - entities:
+    - - 5
+      - 7
+      - action
+    - - 12
+      - 19
+      - room
+    - - 20
+      - 25
+      - device
+- - turn off the kitchen light
+  - entities:
+    - - 5
+      - 8
+      - action
+    - - 13
+      - 20
+      - room
+    - - 21
+      - 26
+      - device
+- - turn on the bedroom fan
+  - entities:
+    - - 5
+      - 7
+      - action
+    - - 12
+      - 19
+      - room
+    - - 20
+      - 23
+      - device
+- - set light medium in the bedroom
+  - entities:
+    - - 4
+      - 9
+      - device
+    - - 10
+      - 16
+      - action
+    - - 24
+      - 31
+      - room
+- - set light low brightness in the bedroom
+  - entities:
+    - - 4
+      - 9
+      - device
+    - - 10
+      - 13
+      - action
+    - - 32
+      - 39
+      - room
+- - set light high brightness in the bedroom
+  - entities:
+    - - 4
+      - 9
+      - device
+    - - 10
+      - 14
+      - action
+    - - 33
+      - 40
+      - room
+- - put light off brightness in the bedroom
+  - entities:
+    - - 4
+      - 9
+      - device
+    - - 10
+      - 13
+      - action
+    - - 32
+      - 39
+      - room
+- - put light medium in the living room
+  - entities:
+    - - 4
+      - 9
+      - device
+    - - 10
+      - 16
+      - action
+    - - 24
+      - 35
+      - room
+- - increase the light level to high
+  - entities:
+    - - 13
+      - 18
+      - device
+    - - 28
+      - 32
+      - action      
+- - increase the light level to medium
+  - entities:
+    - - 13
+      - 18
+      - device
+    - - 28
+      - 34
+      - action    
+- - decrease the light level to medium
+  - entities:
+    - - 13
+      - 18
+      - device
+    - - 28
+      - 34
+      - action    
+- - please increase the light level to high
+  - entities:
+    - - 20
+      - 25
+      - device
+    - - 35
+      - 39
+      - action
+- - please decrease the light level to medium
+  - entities:
+    - - 20
+      - 25
+      - device
+    - - 35
+      - 41
+      - action
+- - please decrease the light level to low
+  - entities:
+    - - 20
+      - 25
+      - device
+    - - 35
+      - 38
+      - action
+- - please open the curtain
+  - entities:
+    - - 7
+      - 11
+      - action
+    - - 16
+      - 23
+      - device  
+- - close curtain please
+  - entities:
+    - - 0
+      - 5
+      - action
+    - - 6
+      - 13
+      - device
+- - set the light to medium
+  - entities:
+    - - 8
+      - 13
+      - device
+    - - 17
+      - 23
+      - action 
+- - please decrease the light level to medium
+  - entities:
+    - - 20
+      - 25
+      - device
+    - - 35
+      - 41
+      - action 
+- - please decrease the light level to low
+  - entities:
+    - - 20
+      - 25
+      - device
+    - - 35
+      - 38
+      - action
+- - please put the light level to medium
+  - entities:
+    - - 15
+      - 20
+      - device
+    - - 30 
+      - 36
+      - action
+- - put the light level to low
+  - entities:
+    - - 8
+      - 13
+      - device
+    - - 23
+      - 26
+      - action
+- - please put light level to medium in the bedroom
+  - entities:
+    - - 11
+      - 16
+      - device
+    - - 26
+      - 32
+      - action
+    - - 40
+      - 47
+      - room      
+- - please put light level to medium in living room
+  - entities:
+    - - 11
+      - 16
+      - device
+    - - 26
+      - 32
+      - action
+    - - 36
+      - 47
+      - room      
+- - turn down light in bedroom
+  - entities:
+    - - 5
+      - 9
+      - action
+    - - 10
+      - 15
+      - device
+    - - 19
+      - 26
+      - room
+- - turn down light in reception
+  - entities:
+    - - 5
+      - 9
+      - action
+    - - 10
+      - 15
+      - device
+    - - 19
+      - 28
+      - room
+- - turn down light in living room
+  - entities:
+    - - 5
+      - 9
+      - action
+    - - 10
+      - 15
+      - device
+    - - 19
+      - 30
+      - room
+- - turn off light in reception
+  - entities:
+    - - 5
+      - 8
+      - action
+    - - 9
+      - 14
+      - device
+    - - 18
+      - 27
+      - room
+- - turn off light in living room
+  - entities:
+    - - 5
+      - 8
+      - action
+    - - 9
+      - 14
+      - device
+    - - 18
+      - 29
+      - room
+- - turn on light in reception
+  - entities:
+    - - 5
+      - 7
+      - action
+    - - 8
+      - 13
+      - device
+    - - 17
+      - 26
+      - room
+- - turn on light in living room
+  - entities:
+    - - 5
+      - 7
+      - action
+    - - 8
+      - 13
+      - device
+    - - 17
+      - 28
+      - room
+- - can you turn off the light
+  - entities:
+    - - 13
+      - 16
+      - action
+    - - 21
+      - 26
+      - device
+- - light off in the living room
+  - entities:
+    - - 0
+      - 5
+      - device
+    - - 6
+      - 9
+      - action
+    - - 17
+      - 28
+      - room
+- - turn the kitchen light off
+  - entities:
+    - - 9
+      - 16
+      - room
+    - - 17 
+      - 22
+      - device
+    - - 23
+      - 26
+      - action
+- - please turn up the light in the living room
+  - entities:
+    - - 12
+      - 14
+      - action
+    - - 19
+      - 24
+      - device
+    - - 32
+      - 43
+      - room
+- - please turn down the light in the bedroom
+  - entities:
+    - - 12
+      - 16
+      - action
+    - - 21
+      - 26
+      - device
+    - - 34
+      - 41
+      - room
+- - decrease the light in the bedroom
+  - entities:
+    - - 13
+      - 18
+      - device
+    - - 26
+      - 33
+      - room
+- - dim the light in the living room
+  - entities:
+    - - 0
+      - 3
+      - action
+    - - 8
+      - 13
+      - device
+    - - 21
+      - 32
+      - room
+- - turn the bathroom light off
+  - entities:
+    - - 9
+      - 17
+      - room
+    - - 18
+      - 23
+      - device
+    - - 24
+      - 27
+      - action
+- - turn on the heating in the living room
+  - entities:
+    - - 5
+      - 7
+      - action
+    - - 12
+      - 19
+      - device
+    - - 27
+      - 38
+      - room  
+- - Turn off the heating in the living room
+  - entities:
+    - - 5
+      - 8
+      - action
+    - - 13
+      - 20
+      - device
+    - - 28
+      - 39
+      - room
+- - please turn the heating on in the living room
+  - entities:
+    - - 16
+      - 23
+      - device
+    - - 24
+      - 26
+      - action
+    - - 34
+      - 45
+      - room
+- - turn the living room light off
+  - entities:
+    - - 9 
+      - 20
+      - room
+    - - 21
+      - 26
+      - device
+    - - 27
+      - 30
+      - action
+- - turn the living room heating off
+  - entities:
+    - - 9
+      - 20
+      - room
+    - - 21
+      - 28
+      - device
+    - - 29
+      - 32
+      - action     
+- - turn on the heater in the living room
+  - entities:
+    - - 5
+      - 7
+      - action
+    - - 12
+      - 18
+      - device
+    - - 26
+      - 37
+      - room  
+- - please set heater on in the living room
+  - entities:
+    - - 11
+      - 17
+      - device
+    - - 18
+      - 20
+      - action
+    - - 28
+      - 39
+      - room     
+- - turn off the heater please
+  - entities:
+    - - 5
+      - 8
+      - action
+    - - 13
+      - 19
+      - device
+- - please set heater off in the bedroom
+  - entities:
+    - - 11
+      - 17
+      - device
+    - - 18
+      - 21
+      - action
+    - - 29
+      - 36
+      - room     
+- - turn on the heater please
+  - entities:
+    - - 5
+      - 7
+      - action
+    - - 12
+      - 18
+      - device
+- - please turn the living room light on
+  - entities:
+    - - 16
+      - 27
+      - room
+    - - 28
+      - 33
+      - device
+    - - 34
+      - 36
+      - action  
+- - please turn the living room heating on
+  - entities:
+    - - 16
+      - 27
+      - room
+    - - 28
+      - 35
+      - device
+    - - 36
+      - 38
+      - action
+- - please set the heating at 33 degrees Celsius
+  - entities:
+    - - 15
+      - 22
+      - device
+    - - 26
+      - 36
+      - temperature
+- - put the heating at 20 degrees celsius
+  - entities:
+    - - 8
+      - 15
+      - device
+    - - 19
+      - 29
+      - temperature 
+- - set the heating at 33 degrees celsius
+  - entities:
+    - - 8
+      - 15
+      - device
+    - - 19
+      - 29
+      - temperature  
+- - please set the heater at 29 degrees Celsius
+  - entities:
+    - - 15
+      - 21
+      - device
+    - - 25
+      - 35
+      - temperature
+- - put the heater at 22 degrees celsius
+  - entities:
+    - - 8
+      - 14
+      - device
+    - - 18
+      - 28
+      - temperature 
+- - set the heater at 33 degrees celsius
+  - entities:
+    - - 8
+      - 14
+      - device
+    - - 18
+      - 28
+      - temperature  
+- - please down the heating to 24 degrees celsius
+  - entities:
+    - - 7
+      - 11
+      - action
+    - - 16
+      - 23
+      - device
+    - - 27
+      - 37
+      - temperature
+- - please turn the heating on at 30 degrees celsius
+  - entities:
+    - - 16
+      - 23
+      - device
+    - - 24
+      - 26
+      - action
+    - - 30
+      - 40
+      - temperature
+- - please set the heater at 34 degrees Celsius
+  - entities:
+    - - 15
+      - 21
+      - device
+    - - 25
+      - 35
+      - temperature
+- - put the heater at 28 degrees celsius
+  - entities:
+    - - 8
+      - 14
+      - device
+    - - 18
+      - 28
+      - temperature 
+- - set the heater at 31 degrees celsius
+  - entities:
+    - - 8
+      - 14
+      - device
+    - - 18
+      - 28
+      - temperature  
+- - please down the heating to 26 degrees celsius
+  - entities:
+    - - 7
+      - 11
+      - action
+    - - 16
+      - 23
+      - device
+    - - 27
+      - 37
+      - temperature
+- - please turn the heating on at 29 degrees celsius
+  - entities:
+    - - 16
+      - 23
+      - device
+    - - 24
+      - 26
+      - action
+    - - 30
+      - 40
+      - temperature
+- - tell me about the latest sports news
+  - entities:
+    - - 25
+      - 31
+      - topic
+- - whats happening in sports today
+  - entities:
+    - - 19
+      - 25
+      - topic
+    - - 26
+      - 31
+      - date
+- - tell me about the latest business news
+  - entities:
+    - - 25
+      - 33
+      - topic
+- - what new is happening in business
+  - entities:
+    - - 25
+      - 33
+      - topic
+- - give me up to date on science news
+  - entities:
+    - - 22
+      - 29
+      - topic
+- - let me know about the news of science
+  - entities:
+    - - 30
+      - 37
+      - topic
+- - tell me about the latest health news
+  - entities:
+    - - 31
+      - 25
+      - topic
+- - what new is happening in technlogy
+  - entities:
+    - - 34
+      - 25
+      - topic
+- - give me up to date on business news
+  - entities:
+    - - 22
+      - 30
+      - topic
+- - let me know about the news of technology 
+  - entities:
+    - - 40
+      - 30
+      - topic
+- - tell me about the latest technology news
+  - entities:
+    - - 25
+      - 35
+      - topic
+- - what new is happening in health
+  - entities:
+    - - 25
+      - 31
+      - topic
+- - give me up to date on health news
+  - entities:
+    - - 22
+      - 28
+      - topic
+- - let me know about the news of health
+  - entities:
+    - - 30
+      - 36
+      - topic
+- - what new is happening in climate
+  - entities:
+    - - 25
+      - 32
+      - topic
+- - tell me about the latest science news
+  - entities:
+    - - 25
+      - 32
+      - topic
+- - give me up to date on technology news
+  - entities:
+    - - 22
+      - 32
+      - topic
+- - read me business news
+  - entities:
+    - - 8
+      - 16
+      - topic
+- - what's going on in sports
+  - entities:
+    - - 19
+      - 25
+      - topic
+- - tell me about the latest news in Middle east
+  - entities:
+    - - 33
+      - 44
+      - region
+- - read me technology news
+  - entities:
+    - - 8
+      - 18
+      - topic
+- - what's going on in technology
+  - entities:
+    - - 19
+      - 29
+      - topic
+- - tell me about the latest news in Asia
+  - entities:
+    - - 33
+      - 37
+      - region
+- - read me health news
+  - entities:
+    - - 8
+      - 14
+      - topic
+- - what's going on in USA
+  - entities:
+    - - 19
+      - 22
+      - region
+- - read me the latest news in Africa
+  - entities:
+    - - 27
+      - 33
+      - region
+- - read me climate news
+  - entities:
+    - - 8
+      - 15
+      - topic
+- - what's going on in middle east
+  - entities:
+    - - 19
+      - 30
+      - region
+- - read me about the latest news in europe
+  - entities:
+    - - 33
+      - 39
+      - region
+- - give me up to date on sports news
+  - entities:
+    - - 22
+      - 28
+      - topic
+- - tell me the latest news in business
+  - entities:
+    - - 27
+      - 35
+      - topic
+- - let me know about the news of business
+  - entities:
+    - - 30
+      - 38
+      - topic
+- - please read me today's news
+  - entities:
+    - - 15  
+      - 20
+      - date
+- - what's happened in the news today
+  - entities:
+    - - 28
+      - 33
+      - date
+- - latest finance news
+  - entities:
+    - - 7
+      - 14
+      - topic
+- - can you find out the latest world news from africa
+  - entities:
+    - - 44
+      - 50
+      - region
+- - i want to hear the latest world news from Africa today
+  - entities:
+    - - 42
+      - 48
+      - region
+    - - 49
+      - 54
+      - date
+- - what is happening in the world news
+  - entities:
+    - - 25
+      - 30
+      - region
+- - show me sports news
+  - entities:
+    - - 8
+      - 14
+      - topic
+- - what is happening in the world right now
+  - entities:
+    - - 25
+      - 30
+      - rgion
+- - what's going on in politics today
+  - entities:
+    - - 19
+      - 27
+      - topic
+    - - 28
+      - 33
+      - date
+- - whats the news about in africa
+  - entities:
+    - - 24
+      - 30
+      - region
+- - please let me know the latest business news
+  - entities:
+    - - 30
+      - 38
+      - topic
+- - please give me update of sports news
+  - entities:
+    - - 25
+      - 31
+      - topic
+- - bring me latest technology news
+  - entities:
+    - - 16
+      - 26
+      - topic
+- - read me sports news
+  - entities:
+    - - 8
+      - 14
+      - topic
+- - what new is happening in business
+  - entities:
+    - - 25
+      - 33
+      - topic
+- - tell me trending technology news
+  - entities:
+    - - 17
+      - 27
+      - topic
+- - please let me know the latest business news
+  - entities:
+    - - 30
+      - 38
+      - topic
+- - let me know about the news of business
+  - entities:
+    - - 30
+      - 38
+      - topic
+- - what's going on in science
+  - entities:
+    - - 19
+      - 26
+      - topic
+- - what's going on in business
+  - entities:
+    - - 19
+      - 27
+      - topic
+- - what new is happening in business
+  - entities:
+    - - 25
+      - 33
+      - topic
+- - tell me the news in science
+  - entities:
+    - - 20
+      - 27
+      - topic
+- - what's going on in science
+  - entities:
+    - - 19
+      - 26
+      - topic
+- - tell me the latest news in science
+  - entities:
+    - - 27
+      - 34
+      - topic
+- - tell me the latest news in climate
+  - entities:
+    - - 27
+      - 34
+      - topic
+- - tell me the latest news in coronavirus
+  - entities:
+    - - 27
+      - 38
+      - topic
+- - tell me the latest news in technology
+  - entities:
+    - - 27
+      - 37
+      - topic
+- - tell me trending technology news
+  - entities:
+    - - 17
+      - 27
+      - topic
+- - tell me the news in technology
+  - entities:
+    - - 20
+      - 30
+      - topic
+- - tell me how to cook steak
+  - entities:
+    - - 20
+      - 25
+      - food
+- - how do i make a pizza
+  - entities:
+    - - 16
+      - 21
+      - food
+- - tell me how to make cake
+  - entities:
+    - - 20
+      - 24
+      - food
+- - find me a pizza recipe
+  - entities:
+    - - 10
+      - 15
+      - food
+- - find me a recipe for cake
+  - entities:
+    - - 21
+      - 25
+      - food
+- - find me a recipe for steak
+  - entities:
+    - - 21
+      - 26
+      - food
+- - find me a pasta recipe
+  - entities:
+    - - 10
+      - 15
+      - food
+- - find me a salad recipe
+  - entities:
+    - - 10 
+      - 15
+      - food
+- - i want to make pizza
+  - entities:
+    - - 15
+      - 20
+      - food
+- - i want to make a cake
+  - entities:
+    - - 17
+      - 21
+      - food
+- - i want to make a steak
+  - entities:
+    - - 17
+      - 22
+      - food
+- - i want to make a pasta
+  - entities:
+    - - 17
+      - 22
+      - food
+- - how do i make a salad
+  - entities:
+    - - 16  
+      - 21
+      - food
+- - how do i make a falafel
+  - entities:
+    - - 16
+      - 23
+      - food
+- - how do i make a chicken 
+  - entities:
+    - - 16
+      - 23
+      - food
+- - how do i make a steak
+  - entities:
+    - - 16
+      - 21
+      - food
+- - how do i make a pizza
+  - entities:
+    - - 16
+      - 21
+      - food
+- - how do i make a pasta
+  - entities:
+    - - 16
+      - 21
+      - food
+- - how do i cook rise
+  - entities:
+    - - 14
+      - 18
+      - food
+- - tell me the recepie of pizza
+  - entities:
+    - - 23
+      - 28
+      - food
+- - what ingredients do i need for margarita
+  - entities:
+    - - 31
+      - 40
+      - food
+- - how i make cupcake
+  - entities:
+    - - 11
+      - 18
+      - food
+- - what ingredients do i need to make cupcake
+  - entities:
+    - - 35
+      - 42
+      - food
+- - what's the recipe for pasta
+  - entities:
+    - - 22
+      - 27
+      - food
+- - what's the recipe for falafel
+  - entities:
+    - - 22
+      - 29
+      - food
+- - tell me how i make falafel
+  - entities:
+    - - 19
+      - 26
+      - food
+- - how to make cheescake
+  - entities:
+    - - 12
+      - 21
+      - food
+- - show me a spaghetti recipe
+  - entities:
+    - - 10
+      - 19
+      - food
+- - can you pull up a recipe for spaghetti
+  - entities:
+    - - 29
+      - 38
+      - food
+- - what is a recipe for meatballs
+  - entities:
+    - - 21
+      - 30
+      - food
+- - what integrent do i need to cook pasta
+  - entities:
+    - - 33
+      - 38
+      - food
+- - how do you cook a burger
+  - entities:
+    - - 18
+      - 24
+      - food
+- - how to make fried rice
+  - entities:
+    - - 12
+      - 22
+      - food
+- - look for a pizza recipe
+  - entities:
+    - - 11
+      - 16
+      - food
+- - how do i cook meatballs
+  - entities:
+    - - 14
+      - 23
+      - food
+- - what's the recipe for fried chicken
+  - entities:
+    - - 22
+      - 35
+      - food
+- - get me a recipe for cookies
+  - entities:
+    - - 20
+      - 27
+      - food
+- - cancel my 7 am alarm
+  - entities:
+    - - 10
+      - 14
+      - time
+- - set an alarm for 8 pm
+  - entities:
+    - - 17
+      - 21
+      - time
+- - set an alarm for 5 am in the morning
+  - entities:
+    - - 17
+      - 21
+      - time
+- - set an alarm for 6 pm in the evening
+  - entities:
+    - - 17
+      - 21
+      - time
+- - set an alarm for 6 am 
+  - entities:
+    - - 17
+      - 21
+      - time
+- - set an alarm for 10 pm 
+  - entities:
+    - - 17
+      - 22
+      - time
+- - remind to at 8 pm to take my medicine
+  - entities:
+    - - 13
+      - 17
+      - time
+    - - 21
+      - 37
+      - message  
+- - make an alarm for me at 5 am tomorrow
+  - entities:
+    - - 24
+      - 28
+      - time
+    - - 29
+      - 37
+      - date
+- - please set the alarm for next friday at 6 am
+  - entities:
+    - - 30
+      - 36
+      - date
+    - - 40
+      - 44
+      - time
+- - i need to set an alarm for next friday at 10 am
+  - entities:
+    - - 32
+      - 38
+      - date
+    - - 42
+      - 47
+      - time
+- - set an alarm to wake up at 5:30 am
+  - entities:
+    - - 16
+      - 23
+      - message
+    - - 27
+      - 34
+      - time
+- - set my alarm for 7 am
+  - entities:
+    - - 17
+      - 21
+      - time
+- - wake me up at 9 am on friday
+  - entities:
+    - - 0
+      - 10
+      - message
+    - - 14
+      - 18
+      - time
+    - - 22
+      - 28
+      - date
+- - set a wake up call for 10 am
+  - entities:
+    - - 6
+      - 18
+      - message
+    - - 23
+      - 28
+      - time
+- - i need a reminder alarm at 1 pm
+  - entities:
+    - - 27
+      - 31
+      - time
+- - make an alarm for 3 pm
+  - entities:
+    - - 18
+      - 22
+      - time
+- - set alarm tomorrow at 6 am
+  - entities:
+    - - 10
+      - 18
+      - date
+    - - 22
+      - 26
+      - time
+- - set wake up thursday 7 am
+  - entities:
+    - - 4
+      - 11
+      - message
+    - - 12
+      - 20
+      - date
+    - - 21
+      - 25
+      - time
+- - cancel my 8 am alarm
+  - entities:
+    - - 10
+      - 14
+      - time
+- - set my alarm for tuesday at 6 pm
+  - entities:
+    - - 17
+      - 24
+      - date
+    - - 28
+      - 32
+      - time
+- - can you play shallow song
+  - entities:
+    - - 13
+      - 20
+      - song_name
+- - can you play benkhaf song
+  - entities:
+    - - 13
+      - 20
+      - song_name
+- - can you play flash song
+  - entities:
+    - - 13
+      - 18
+      - song_name
+- - play insan by hamza namira
+  - entities:
+    - - 5
+      - 10
+      - song_name
+    - - 14
+      - 26
+      - artist
+- - play yunis by mohamed mounir
+  - entities:
+    - - 5
+      - 10
+      - song_name
+    - - 14
+      - 28
+      - artist
+- - play flash by cigarettes after sex
+  - entities:
+    - - 5
+      - 10
+      - song_name
+    - - 14
+      - 34
+      - artist
+- - play touch by cigarettes after sex
+  - entities:
+    - - 5
+      - 10
+      - song_name
+    - - 14
+      - 34
+      - artist
+- - play shallow by lady gaga
+  - entities:
+    - - 5
+      - 12
+      - song_name
+    - - 16
+      - 25
+      - artist
+- - play shivers by ed sheeran
+  - entities:
+    - - 5
+      - 12
+      - song_name
+    - - 16
+      - 26
+      - artist
+- - play laykoon by el morabba3
+  - entities:
+    - - 5
+      - 12
+      - song_name
+    - - 16
+      - 27
+      - artist
+- - play gravity by coldplay
+  - entities:
+    - - 5
+      - 12
+      - song_name
+    - - 16
+      - 24
+      - artist
+- - play tazkarti by hamza namira
+  - entities:
+    - - 5
+      - 13
+      - song_name
+    - - 17
+      - 29
+      - artist
+- - play heavenly by cigarettes after sex
+  - entities:
+    - - 5
+      - 13
+      - song_name
+    - - 17
+      - 37
+      - artist
+- - play believer by imagine dragons
+  - entities:
+    - - 5
+      - 13
+      - song_name
+    - - 17
+      - 32
+      - artist
+- - play wushoosh by hamza namira
+  - entities:
+    - - 5
+      - 13
+      - song_name
+    - - 17
+      - 29
+      - artist
+- - play music for cigarettes after sex
+  - entities:
+    - - 15
+      - 35
+      - artist
+- - play music for cairokee
+  - entities:
+    - - 15
+      - 23
+      - artist
+- - play music for amr diab
+  - entities:
+    - - 15
+      - 23
+      - artist
+- - paly music for coldplay
+  - entities:
+    - - 15
+      - 23
+      - artist
+- - play music for george wassouf
+  - entities:
+    - - 15
+      - 29
+      - artist
+- - play music for mohamed mounir
+  - entities:
+    - - 15
+      - 29
+      - artist
+- - play music for adele
+  - entities:
+    - - 15
+      - 20
+      - artist
+- - play music for justin bieber
+  - entities:
+    - - 15
+      - 28
+      - artist
+- - play music for hamza namira
+  - entities:
+    - - 15
+      - 27
+      - artist
+- - shuffle songs by coldplay
+  - entities:
+    - - 17
+      - 25
+      - artist
+- - play rock music
+  - entities:
+    - - 5
+      - 9
+      - music_genre
+- - play hip hop music
+  - entities:
+    - - 5
+      - 12
+      - music_genre
+- - play classical music
+  - entities:
+    - - 5
+      - 14
+      - music_genre
+- - i like rock music
+  - entities:
+    - - 7
+      - 11
+      - music_genre
+- - i want to hear is rap
+  - entities:
+    - - 18
+      - 21
+      - music_genre
+- - i want to hear is rock
+  - entities:
+    - - 18
+      - 22
+      - music_genre
+- - i want to hear is pop
+  - entities:
+    - - 18
+      - 21
+      - music_genre
+- - i want to hear is jazz
+  - entities:
+    - - 18
+      - 22
+      - music_genre
+- - let's listen to lovely by billie eilish
+  - entities:
+    - - 16
+      - 22
+      - song_name
+    - - 26
+      - 39
+      - artist
+- - let's listen to lovely
+  - entities:
+    - - 16
+      - 22
+      - song_name
+- - let's listen to touch by cigarettes after sex
+  - entities:
+    - - 16
+      - 21
+      - song_name
+    - - 25
+      - 45
+      - artist
+- - play my jazz playlist
+  - entities:
+    - - 8
+      - 12
+      - music_genre
+- - i want exact time in washington right now
+  - entities:
+    - - 21
+      - 31
+      - location
+- - whats the date today
+  - entities:
+    - - 15
+      - 20
+      - date
+- - get me the time in london now
+  - entities:
+    - - 19
+      - 25
+      - location
+- - whats the time in london
+  - entities:
+    - - 18
+      - 24
+      - location
+- - what time is it in canada
+  - entities:
+    - - 19
+      - 25
+      - location
+- - what is the time zone in florida
+  - entities:
+    - - 25
+      - 32
+      - location
+- - which date is today
+  - entities:
+    - - 14
+      - 19
+      - date
+- - what time is it in hong kong
+  - entities:
+    - - 19
+      - 28
+      - location
+- - what is the current time in california
+  - entities:
+    - - 28
+      - 38
+      - location
+- - show me the date of today
+  - entities:
+    - - 20
+      - 25
+      - date
+- - tell me the time in tokyo
+  - entities:
+    - - 20
+      - 25
+      - location
+- - hey what time is it in london now
+  - entities:
+    - - 23
+      - 29
+      - location
+- - tell me the time in moscow
+  - entities:
+    - - 20
+      - 26
+      - location
+- - which day is it today
+  - entities:
+    - - 16
+      - 21
+      - date
+- - whats the time in dubai
+  - entities:
+    - - 18
+      - 23
+      - location
+- - i want exact time in berlin right now
+  - entities:
+    - - 21
+      - 27
+      - location
+- - what is the date today
+  - entities:
+    - - 17
+      - 22
+      - date
+- - get me the time in new york now
+  - entities:
+    - - 19
+      - 27
+      - location
+- - what is the time in london
+  - entities:
+    - - 20
+      - 26
+      - location
+- - what time is it in chicago
+  - entities:
+    - - 19
+      - 26
+      - location
+- - what is the time zone in new york
+  - entities:
+    - - 25
+      - 33
+      - location
+- - which date is today
+  - entities:
+    - - 14
+      - 19
+      - date
+- - tell me the date of today
+  - entities:
+    - - 20
+      - 25
+      - date
+- - tell me the time in london now
+  - entities:
+    - - 20
+      - 26
+      - location
+- - hey what time is it in berlin now
+  - entities:
+    - - 23
+      - 29
+      - location
+- - tell me the time in moscow
+  - entities:
+    - - 20
+      - 26
+      - location
+- - play a melody music
+  - entities:
+    - - 7
+      - 13
+      - music_genre
+- - put a disco track
+  - entities:
+    - - 6
+      - 11
+      - music_genre
+- - play i walk the line by johnny cash
+  - entities:
+    - - 5
+      - 20
+      - song_name
+    - - 24
+      - 35
+      - artist
+- - i need to hear notorious thugs by bone thugs 
+  - entities:
+    - - 15
+      - 30
+      - song_name
+    - - 34
+      - 44
+      - artist
+- - play kenny rogers track
+  - entities:
+    - - 5
+      - 17
+      - artist
+- - play lady song
+  - entities:
+    - - 5
+      - 9
+      - song_name
+- - play believer song
+  - entities:
+    - - 5
+      - 13
+      - song_name
+- - i want to listen to believer song
+  - entities:
+    - - 20
+      - 28
+      - song_name
+- - play closer music track
+  - entities:
+    - - 5
+      - 11
+      - song_name
+- - play music by taylor swift
+  - entities:
+    - - 14
+      - 26
+      - artist
+- - i want to listen to classic rock
+  - entities:
+    - - 20
+      - 32
+      - music_genre
+- - i want to hear pop music
+  - entities:
+    - - 15
+      - 24
+      - music_genre
+- - play hungry eyes music track
+  - entities:
+    - - 5
+      - 16
+      - song_name
+- - play get happy by ella fitzgerald
+  - entities:
+    - - 5
+      - 14
+      - song_name
+    - - 18
+      - 33
+      - artist
+- - play the song get happy by ella fitzgeral
+  - entities:
+    - - 14
+      - 23
+      - song_name
+    - - 27
+      - 41
+      - artist
+- - play justin bieber on shuffle
+  - entities:
+    - - 5
+      - 18
+      - artist
+- - play only classical music
+  - entities:
+    - - 10
+      - 19
+      - music_genre
+- - play something romantic music
+  - entities:
+    - - 15
+      - 29
+      - music_genre
+- - please play shake it off by taylor swift
+  - entities:
+    - - 12
+      - 24
+      - song_name
+    - - 28
+      - 40
+      - artist
+- - can you play magic by bruno mars
+  - entities:
+    - - 13
+      - 18
+      - song_name
+    - - 22
+      - 32
+      - artist
+- - please put on my favorite rap music playlist
+  - entities:
+    - - 26
+      - 29
+      - music_genre
+- - play all my favorite latin songs
+  - entities:
+    - - 21
+      - 26
+      - music_genre
+- - i want to hear some beyonce
+  - entities:
+    - - 20
+      - 27
+      - artist
+- - play me taylor swift's newest song
+  - entities:
+    - - 8
+      - 20
+      - artist
+- - can you play lose yourself by eminem
+  - entities:
+    - - 13
+      - 26
+      - song_name
+    - - 30
+      - 36
+      - artist
+- - please play shape of you by ed sheeran
+  - entities:
+    - - 12
+      - 24
+      - song_name
+    - - 28
+      - 38
+      - artist
+- - play some soft jazz
+  - entities:
+    - - 10
+      - 19
+      - music_genre
+- - play the bjork album
+  - entities:
+    - - 9
+      - 14
+      - artist
+- - play fire fly by mura masa
+  - entities:
+    - - 5
+      - 13
+      - song_name
+    - - 17
+      - 26
+      - artist
+- - play for me music by the beatles
+  - entities:
+    - - 21
+      - 32
+      - artist
+- - play for me the music by michael jackson
+  - entities:
+    - - 25
+      - 40
+      - artist
+- - listen to pop songs
+  - entities:
+    - - 10
+      - 13
+      - music_genre
+- - play for me hip hop music
+  - entities:
+    - - 12
+      - 19
+      - music_genre
+- - play for me the music by madonna
+  - entities:
+    - - 25
+      - 32
+      - artist
