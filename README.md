@@ -3,9 +3,9 @@
 ![ASK_overview _TTH_](https://user-images.githubusercontent.com/67477345/143164667-786523bc-9b76-4d32-b2ba-a5c16055f9ab.png)
 
   
-## Introduction
+## Overview
 
-	 A voice assistant is a digital assistant that uses voice recognition, speech synthesis, and natural language processing (NLP) to provide a service through a particular application.
+A voice assistant is a digital assistant that uses voice recognition, speech synthesis, and natural language processing (NLP) to provide a service through a particular application.
 
 
 ## Features in Leo
@@ -22,7 +22,7 @@
 		Dialy News
 
 
-##Usage Examples:
+## Usage Examples:
 
 	Say "Leo" (wait for double beep) then...
 
