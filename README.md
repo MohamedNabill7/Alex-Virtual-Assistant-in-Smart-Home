@@ -10,7 +10,7 @@ A voice assistant is a digital assistant that uses voice recognition, speech syn
 
 ## Features in Leo
 	
-	Leo is a Personal Artificial Intelligence voice assistant used to predict the basic functions like,
+	**Alex** is a Personal Artificial Intelligence voice assistant used to predict the basic functions like,
 
 		Smart-Home Control
 		Predicts time, date
@@ -24,7 +24,7 @@ A voice assistant is a digital assistant that uses voice recognition, speech syn
 
 ## Usage Examples:
 
-	Say "Leo" (wait for double beep) then...
+	Say "Alex" then...
 
 		"Play some music"
 		"What is the weather like in [Cairo, London, ..]"
@@ -33,12 +33,11 @@ A voice assistant is a digital assistant that uses voice recognition, speech syn
 		"What is the time now in New York"
 		"How do i make a pizza"
 
-	Don't like the name "Leo"? Change it to anything you want, like "Joe" or "Alex".
 
   
 ## Demo
 	
-	<a href=''> Leo Virtual Assistant </a>
+	<a href=''> Alex Virtual Assistant </a>
   
 ## Prerequisites
 
