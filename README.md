@@ -1,4 +1,4 @@
-# Leo Virtual Assistant in Smart Home 
+# Alex Virtual Assistant in Smart Home 
 
 ![ASK_overview _TTH_](https://user-images.githubusercontent.com/67477345/143164667-786523bc-9b76-4d32-b2ba-a5c16055f9ab.png)
 
@@ -10,7 +10,7 @@ A voice assistant is a digital assistant that uses voice recognition, speech syn
 
 ## Features in Leo
 	
-	**Alex** is a Personal Artificial Intelligence voice assistant used to predict the basic functions like,
+	Alex is a Personal Artificial Intelligence voice assistant used to predict the basic functions like,
 
 		Smart-Home Control
 		Predicts time, date
