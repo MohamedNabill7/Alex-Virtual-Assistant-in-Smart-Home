@@ -38,8 +38,5 @@ A voice assistant is a digital assistant that uses voice recognition, speech syn
 ## Demo
 	
 	<a href=''> Alex Virtual Assistant </a>
-  
-## Prerequisites
-
 	
   
