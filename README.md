@@ -10,28 +10,28 @@ A voice assistant is a digital assistant that uses voice recognition, speech syn
 
 ## Features in Leo
 	
-	Alex is a Personal Artificial Intelligence voice assistant used to predict the basic functions like,
+**Alex** is a Personal Artificial Intelligence voice assistant used to predict the basic functions like,
 
-		Smart-Home Control
-		Predicts time, date
-		Playing Music Videos on Youtube
-		Say Jokes 😁
-		Set an alarm to reminder
-		Weather Forecast
-		Cooking Recipe
-		Dialy News
+	Smart-Home Control
+	Predicts time, date
+	Playing Music Videos on Youtube
+	Say Jokes 😁
+	Set an alarm to reminder
+	Weather Forecast
+	Cooking Recipe
+	Dialy News
 
 
 ## Usage Examples:
 
-	Say "Alex" then...
+Say **Alex** then...
 
-		"Play some music"
-		"What is the weather like in [Cairo, London, ..]"
-		"Turn [on, off] the light in the [garage, bedroom. .....]"
-		"Tell me something funny"
-		"What is the time now in New York"
-		"How do i make a pizza"
+	"Play some music"
+	"What is the weather like in [Cairo, London, ..]"
+	"Turn [on, off] the light in the [garage, bedroom. .....]"
+	"Tell me something funny"
+	"What is the time now in New York"
+	"How do i make a pizza"
 
 
   
