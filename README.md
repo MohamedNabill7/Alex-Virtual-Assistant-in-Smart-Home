@@ -40,3 +40,7 @@ Say **Alex** then...
 	<a href=''> Alex Virtual Assistant </a>
 	
   
+## Prerequisites
+	
+	Python 3.9
+	You could install all prerequisites from each folder that contains "Requirements.txt"
