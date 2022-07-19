@@ -47,5 +47,4 @@ Say **Alex** then...
 
 ## How to use
 	
-	After install all prerequisites
-Try to run this script from <a href='https://github.com/MohamedNabill7/Alex-Virtual-Assistant-in-Smart-Home/blob/master/Run.py'> here </a>
+	After install all prerequisites try to run the "Run" script
