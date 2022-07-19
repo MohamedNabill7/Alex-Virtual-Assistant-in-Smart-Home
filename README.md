@@ -44,3 +44,8 @@ Say **Alex** then...
 	
 	Python 3.9
 	You could install all prerequisites from each folder that contains "Requirements.txt"
+
+## How to use
+	
+	After install all prerequisites
+	Try to run this script from <a href='https://github.com/MohamedNabill7/Alex-Virtual-Assistant-in-Smart-Home/blob/master/Run.py'> here </a>
