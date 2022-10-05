@@ -47,4 +47,4 @@ Say **Alex** then...
 
 ## How to use
 	
-	After install all prerequisites try to run the "Run" script
+	After install all prerequisites try to run the "Run" file script from "Skills" 
