@@ -8,7 +8,7 @@
 A voice assistant is a digital assistant that uses voice recognition, speech synthesis, and natural language processing (NLP) to provide a service through a particular application.
 
 
-## Features in Leo
+## Features in Alex
 	
 **Alex** is a Personal Artificial Intelligence voice assistant used to predict the basic functions like,
 
